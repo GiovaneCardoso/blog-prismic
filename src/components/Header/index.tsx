@@ -1,3 +1,7 @@
 export default function Header() {
-  // TODO
+  return (
+    <header>
+      <img src="/Logo.png" alt="logo" />
+    </header>
+  )
 }

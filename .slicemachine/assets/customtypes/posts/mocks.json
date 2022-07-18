@@ -1,0 +1,61 @@
+{
+  "id": "f31f329b-a20e-4c8c-953b-8a350af7e786",
+  "uid": "unde-aspernatur-voluptates",
+  "type": "posts",
+  "data": {
+    "title": "enable granular eyeballs",
+    "subtitle": "morph back-end methodologies",
+    "author": "reinvent turn-key bandwidth",
+    "banner": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=900&h=500&fit=crop"
+    },
+    "content": [
+      {
+        "heading": "reinvent integrated infrastructures",
+        "body": [
+          {
+            "type": "paragraph",
+            "text": "Labore cupidatat laborum cupidatat quis. Aliquip irure incididunt sunt mollit.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "heading": "maximize enterprise deliverables",
+        "body": [
+          {
+            "type": "paragraph",
+            "text": "Ipsum proident ea occaecat culpa officia fugiat reprehenderit elit. Proident voluptate aliqua officia reprehenderit aliquip mollit ullamco cillum est id voluptate ullamco proident sint. Ipsum elit dolore incididunt laborum reprehenderit et non veniam sint pariatur.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "heading": "maximize world-class web-readiness",
+        "body": [
+          {
+            "type": "paragraph",
+            "text": "Eiusmod sint enim sit ex voluptate consectetur occaecat exercitation mollit Lorem aliquip sunt.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "heading": "maximize end-to-end architectures",
+        "body": [
+          {
+            "type": "paragraph",
+            "text": "In cillum minim labore sunt.",
+            "spans": []
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "_latest": "0.3.0",
+  "apiEndpoint": "https://blog-prismic-devgiovane.prismic.io/api/v2",
+  "libraries": ["@/slices"],
+  "framework": "previousNext"
+}
