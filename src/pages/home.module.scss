@@ -10,4 +10,24 @@
     color: #d7d7d7;
     font-size: 18px;
   }
+  .postReadData {
+    display: flex;
+    margin-top: 24px;
+    align-items: center;
+    > div {
+      &:not(:first-child) {
+        margin-left: 20px;
+      }
+      display: flex;
+      align-items: center;
+      i {
+        display: flex;
+        margin-right: 10px;
+      }
+      p {
+        color: #dddddd;
+        font-size: 14px;
+      }
+    }
+  }
 }

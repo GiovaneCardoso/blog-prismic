@@ -1,1 +1,52 @@
-// TODO
+.postContainer {
+  max-width: 720px;
+  margin: 0 auto;
+  margin-top: 70px;
+  .prePost {
+    display: flex;
+    align-items: center;
+    > div {
+      &:not(:first-child) {
+        margin-left: 20px;
+      }
+      display: flex;
+      align-items: center;
+      i {
+        margin-right: 10px;
+        display: flex;
+      }
+      p {
+        font-size: 14px;
+        color: #bbbbbb;
+      }
+    }
+  }
+  .post {
+    *:not(h1, h2) {
+      color: #d7d7d7;
+      font-size: 18px;
+      line-height: 1.5rem;
+    }
+    h1,
+    h2 {
+      color: #f8f8f8;
+      font-size: 36px;
+      margin: 30px 0;
+    }
+    a {
+      text-decoration: none;
+      color: #ff57b2;
+    }
+    ul,
+    ol {
+      margin: 10px 0;
+      li {
+        margin-left: 20px;
+      }
+    }
+  }
+}
+.banner {
+  display: flex;
+  justify-content: center;
+}
