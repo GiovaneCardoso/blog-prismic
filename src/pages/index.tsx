@@ -62,12 +62,7 @@ export default function Home({
     </div>
   )
 }
-export const getStaticPaths: GetStaticPaths = async () => {
-  return {
-    paths: [],
-    fallback: 'blocking',
-  }
-}
+
 export const getStaticProps: GetStaticProps = async () => {
   const client = createClient()
   const postsResponse = await client.getByType('posts')
@@ -75,6 +70,6 @@ export const getStaticProps: GetStaticProps = async () => {
     props: {
       postsPagination: postsResponse ?? [],
     },
-    // revalidate: 60,
+    revalidate: 60,
   }
 }

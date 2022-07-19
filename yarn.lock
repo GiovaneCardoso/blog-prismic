@@ -1572,7 +1572,7 @@
     escape-html "^1.0.3"
     imgix-url-builder "^0.0.3"
 
-"@prismicio/helpers@^2.3.1", "@prismicio/helpers@^2.3.2":
+"@prismicio/helpers@^2.3.1":
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/@prismicio/helpers/-/helpers-2.3.2.tgz#602e3f2ab432ecbc91b2485e2b9743ebc94fee48"
   integrity sha512-7FyvybtzvqSvFrDL/Dhb91ADrgwhWaNBA8svX/xs3BrARpGicdNBLiy8WBMM3+pD13tLFi8AxOr5563ORO+siw==
