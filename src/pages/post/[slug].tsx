@@ -37,59 +37,57 @@ export default function Post({ post }: PostProps) {
     return <div>Carregando...</div>
   }
   return (
-    <Suspense fallback={'Carregando...'}>
-      <div>
-        <div className={styles.banner}>
-          {post?.data?.banner?.url && <img src={post.data.banner.url} />}
-        </div>
-        <div className={styles.postContainer}>
-          <div className={styles.prePost}>
-            <div>
-              <i>
-                <FiCalendar />
-              </i>
-              <p>
-                {new Date(post.first_publication_date).toLocaleDateString(
-                  'pt-br',
-                  {
-                    day: '2-digit',
-                    month: 'short',
-                    year: 'numeric',
-                  }
-                )}
-              </p>
-            </div>
-            <div>
-              <i>
-                <FiUser />
-              </i>
-              <p>{post.data.author}</p>
-            </div>
-            <div>
-              <i>
-                <FiClock />
-              </i>
-              <p>{minutesToRead} min</p>
-            </div>
+    <div>
+      <div className={styles.banner}>
+        {post?.data?.banner?.url && <img src={post.data.banner.url} />}
+      </div>
+      <div className={styles.postContainer}>
+        <div className={styles.prePost}>
+          <div>
+            <i>
+              <FiCalendar />
+            </i>
+            <p>
+              {new Date(post.first_publication_date).toLocaleDateString(
+                'pt-br',
+                {
+                  day: '2-digit',
+                  month: 'short',
+                  year: 'numeric',
+                }
+              )}
+            </p>
           </div>
-          <div className={styles.post}>
-            <h1>{post.data.title}</h1>
-            <div>
-              {post.data.content.map(content => (
-                <div key={content.heading}>
-                  <h2>{content.heading}</h2>
-                  <div
-                    dangerouslySetInnerHTML={{
-                      __html: RichText.asHtml(content.body),
-                    }}
-                  ></div>
-                </div>
-              ))}
-            </div>
+          <div>
+            <i>
+              <FiUser />
+            </i>
+            <p>{post.data.author}</p>
+          </div>
+          <div>
+            <i>
+              <FiClock />
+            </i>
+            <p>{minutesToRead} min</p>
+          </div>
+        </div>
+        <div className={styles.post}>
+          <h1>{post.data.title}</h1>
+          <div>
+            {post.data.content.map(content => (
+              <div key={content.heading}>
+                <h2>{content.heading}</h2>
+                <div
+                  dangerouslySetInnerHTML={{
+                    __html: RichText.asHtml(content.body),
+                  }}
+                ></div>
+              </div>
+            ))}
           </div>
         </div>
       </div>
-    </Suspense>
+    </div>
   )
 }
 
