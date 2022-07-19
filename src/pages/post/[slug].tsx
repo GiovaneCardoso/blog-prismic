@@ -3,7 +3,6 @@ import { RichText } from 'prismic-dom'
 import { createClient } from '../../../prismicio'
 import styles from './post.module.scss'
 import { FiCalendar, FiClock, FiUser } from 'react-icons/fi'
-import { Suspense } from 'react'
 
 interface Post {
   first_publication_date: string | null
